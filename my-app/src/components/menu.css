@@ -1,0 +1,176 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background: #DDDFD4;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  height: 80px;
+  font-size: 35px;
+  font-weight: 400;
+  z-index: 9999;
+  text-decoration:none;
+}
+ul{
+    list-style: none; 
+}
+.gt-logo{ 
+  width: 100px;
+  height: 70px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+}
+.nav-options {
+  margin-top:20px;
+  margin-left: 40%;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.mobile-option {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+
+.signin-up {
+  display: flex;
+  padding: 0px 100px;
+  list-style-type: none;
+  text-decoration: none;
+  align-self: right;
+}
+.sign-in {
+  margin-top: -10%;
+  padding-right:50%;
+  align-self: right;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.sign-in:hover {
+  color: #FB793F;
+  text-decoration: none;
+  transition: opacity 2.85s, transform 0.85s;
+ 
+}
+.signup-btn {
+  font-size: 20px;
+  padding: 10px 40px;
+  height: 2.4rem;
+  background: #3FB0AC;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  box-shadow: 0px 3px 6px #3FB0AC;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.signup-btn:hover{
+  text-decoration: none;
+  color:white;
+  background-color: #173E43;
+  box-shadow: 0px 3px 6px #173E43;
+}
+
+.option:hover {
+  color: #FB793F;
+  text-decoration: none;
+  transition: opacity 2.85s, transform 0.85s;
+}
+
+body{ 
+  color: #2B32BE;
+}
+
+/*Desktop View*/
+@media (max-width: 1087px) {
+  /*Mobile View */
+  .header {
+    padding: 0px 10px;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    background: #F6F5FB;
+ 
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99999;
+    position: fixed;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .logo {
+    width: 2rem;
+    height: 3.5rem;
+  }
+
+  .menu-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .option {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px;
+  }
+  .sign-up {
+    background:#7469E5;
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    align-self: center;
+    border-radius: 15px;
+  }
+  .sign-up :hover {
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .signin-up {
+    display: none;
+  }
+}
