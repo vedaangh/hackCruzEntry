@@ -14,7 +14,7 @@ Compassion for others is integral to preventing violence, and understanding of l
 ### Web App Screenshots 
 ![Recordit GIF](https://media.giphy.com/media/ZjPFW2Dtyn12t9JIqY/giphy.gif)
 ![Recordit GIF](https://media.giphy.com/media/5kT9nJuzPFH9wiLkNc/giphy.gif)
-
+![Recordit GIF](https://media.giphy.com/media/8HvKKrbNtlMOAde6YC/giphy.gif)
 ### Mobile App Screenshot
 ![Recordit GIF](https://media.giphy.com/media/UENluevfip28cv01sD/giphy.gif)
 # User Stories
