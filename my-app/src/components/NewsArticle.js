@@ -8,6 +8,7 @@ function NewsArticle({data}){
            <p className="news-description">{data.description}</p>
            <span className="news-author">{data.author}</span>
            <span className="news-published">{data.publishedAt}</span>
+           <span className='news-image'>{data.urlToImage} </span>
            <button className="news-source">News Source: {data.source.name}</button>
         </div>
     );
