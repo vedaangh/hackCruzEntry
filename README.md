@@ -1,10 +1,12 @@
-# About Acta📰🌿🌱  (Entry Submission for HackCruz)
+# About Acta📰🌿🌱  
 
 Acta is a mobile and web social media platform that allows people to have converstations about different current events and express diverse views. 
 
 # Problem 
 
-# Inspiration 
+### Web App Screenshots 
+
+### Mobile App Screenshots 
 
 # User Stories
 - [ ] The user is able to log in through the landing page of the web app
