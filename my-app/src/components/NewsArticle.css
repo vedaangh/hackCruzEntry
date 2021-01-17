@@ -6,8 +6,8 @@
 
 body{
     width: 90%;
-    margin: 0 auto; 
-    background:   url('./img/background-pages.png'); 
+    margin: 0 auto;
+    background:   url('./img/background-pages.png');
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -17,14 +17,14 @@ body{
     height: 100%;
 }
 .all-news {
-   
+
     margin: 3% 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     color: #173E43;
 }
-  
+
 .news{
    background-color:white;
     width: 500px;
@@ -81,5 +81,6 @@ button.news-source:hover{
     padding-bottom: 10px;
 }
 .news-image{
-width: 300px;
+width: 22vw;
+border-radius: 12px
 }
