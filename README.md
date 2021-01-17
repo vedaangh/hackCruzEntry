@@ -1,6 +1,6 @@
 # About Acta📰🌿🌱  
 
-Acta is a mobile and web platform that helps to display more diverse views on the social media platform for all to see and discuss.
+Acta is a mobile and web platform that helps to display more diverse views on the social media platform for all to see and discuss. 
 ![Recordit GIF](https://media.giphy.com/media/KBWjGOCC5CdNRip3kb/giphy.gif)
 # Problem 
 
