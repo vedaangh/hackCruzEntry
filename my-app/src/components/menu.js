@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {ReactComponent as CloseMenu} from './img/menu.png';
 import {ReactComponent as MenuIcon} from './img/x.png';
 import './menu.css'; 
-import logo from './img/logo.png';
+import logo from './img/logo2.gif';
 
 const Header=()=>{
     //at firt the state is set to false because the mobile menu is closed
@@ -12,10 +12,10 @@ const Header=()=>{
     const closeMobileMenu =()=> setClick(false);
     return (
         <div className='header'>
-            <div className='logo-nav'>
+            <div className='logo-nav '>
                 <div className='logo-container'>
                     <a href='#'>
-                     <img href='#main' className="gt-logo" src={logo}></img>
+                     <img href='#main' className="gt-logo " src={logo}></img>
                     </a>
                 </div>
             </div> 
