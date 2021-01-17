@@ -1,6 +1,6 @@
 # About Acta📰🌿🌱  
 
-Acta is a mobile and web social media platform that allows people to have converstations about different current events and express diverse views. 
+Acta is a mobile and web platform that helps to display more diverse views on the social media platform for all to see and discuss.
 
 # Problem 
 
