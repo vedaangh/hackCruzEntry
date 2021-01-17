@@ -2,13 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './components/landing.css'
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+
 import Landing from './components/landing.js'
-import Header from './components/menu.js'
+import NewsPage from './components/newspage.js'
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing/>
+    <Router>
+      <Landing/>
+
+        <Switch>
+        <Route exact path="/"  component={Landing}/>
+        <Route path="/news" component={NewsPage}/>
+       
+         
+        </Switch>
+      
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
