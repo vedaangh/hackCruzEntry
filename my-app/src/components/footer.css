@@ -3,10 +3,11 @@
     background-color: #FFFFFF;
     color: white;
     bottom: 0;
-    /* flex-shrink: 0; */
-    padding-top: 1px; 
-    padding-bottom: 10px;
-    width: 100%;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    width: 105%;
+    display: inline-block;
+    margin-left: -10%;
 }
 
 .text-center{ 
@@ -17,9 +18,9 @@
 }
 
 .button-style{
-    width: 30%;
+    width: 60%;
     font-size: 20px;
-    padding: 10px 9px;
+    padding: 10px 10px;
     /* height: 2.4rem; */
     background: #3FB0AC;
     color: white;
@@ -51,7 +52,7 @@
 }
 
 #plus-icon{
-    width:40px;
+    width:35px;
     height: 40px;
 }
 
@@ -68,8 +69,6 @@
     /* margin-top: 4%; */
     background-size: cover;
     padding: 1rem 1rem;
-
-  
     /* Grid styles */
     display: grid;
     text-align: center;
@@ -77,7 +76,6 @@
      /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
     automatically the size of the track, based on the width of the viewport,
      */
-     
      /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }

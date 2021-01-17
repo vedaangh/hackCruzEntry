@@ -1,17 +1,17 @@
-html {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
+/* html {
+    height: 100%; */
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+/* } */
   
-body {
+/* body {
     padding: 0 0px;
     overflow-x: hidden;
     font-family: operetta-12, serif;
     font-weight: 500;
     font-style: normal;
 }
-.news{
+.NewsPage{
     overflow: hidden; 
     height:100%;
     width: 100%;
@@ -19,6 +19,7 @@ body {
 }
 
 .main-bk{
+    width: 100%;
     background-image: url('./img/background-pages.png'); 
     background-repeat: no-repeat;
     background-position:center;
@@ -27,4 +28,25 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 1080px;
+} */
+.center-page-title{
+margin-left: 38%;
+margin-right: auto;
+    /* text-align: center;
+    align-items: center; */
+    /* margin-right: 100%; */
+}
+.page-title{
+    width: 20%;
+    margin-top: 8%;
+    font-weight: bold;
+    color: #173E43;
+    font-size: 30px;
+    background-color:#FAE596 ;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    box-shadow: 0px 3px 6px#FAE596;
+    font-family: operetta-12, serif;
+    border-style: none;
 }
