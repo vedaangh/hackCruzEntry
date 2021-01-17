@@ -19,8 +19,8 @@ ul{
     list-style: none; 
 }
 .gt-logo{ 
-  width: 85px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
 }
 .logo-nav {
   display: flex;
@@ -143,6 +143,7 @@ body{
     width: 2rem;
     height: 3.5rem;
   }
+
 
   .menu-icon {
     width: 45px;

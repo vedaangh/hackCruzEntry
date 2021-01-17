@@ -80,3 +80,6 @@ button.news-source:hover{
     font-size: 14px;
     padding-bottom: 10px;
 }
+.news-image{
+width: 300px;
+}

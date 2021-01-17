@@ -7,7 +7,6 @@ import NewsPage from './newspage.js';
 
 function Landing() {
   return (
-    
         <div className="landing">
         <Header/>
             <div className='main-background'>
