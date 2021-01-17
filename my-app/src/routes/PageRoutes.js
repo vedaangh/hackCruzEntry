@@ -19,6 +19,8 @@ const Routes =()=>{
                 <Route   path="/discuss" component={Discussions}/> 
             </Switch>
         </div>
+
+        
     </Router>
     
     );

@@ -1,16 +1,13 @@
-import logo from './img/logo.png';
-import acta from './img/Acta.gif';
 import Header from './menu.js'
-import {Route, BrowserRouter as Router} from 'react-router-dom';
 
 import './newspage.css';
-
+import Footer from './footer.js'
 function NewsPage() {
   return (
-      
-    <div className="news-page">
-    
-        <p>HEllo WOrld</p>
+    <div className="news main-bk">
+    <Header/>
+        <h1> News Page</h1>
+        <div> <Footer/></div>
     </div>
   );
 }

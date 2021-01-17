@@ -10,7 +10,7 @@ function Landing() {
     <Router>
         <div className="landing">
         <Header/>
-            <div className='main-bk'>
+            <div className='main-background'>
                 <div className='center-title'> 
                     <img src={acta} className="acta" alt="logo" />
                 </div>
@@ -19,7 +19,6 @@ function Landing() {
                 </div>
             </div>
         </div>
-        
     </Router>
   );
 }
