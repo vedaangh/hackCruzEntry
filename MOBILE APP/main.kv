@@ -1,0 +1,103 @@
+<MagicButton@MagicBehavior+MDIconButton>
+<BreakingNews@MDSwiperItem>
+    RelativeLayout:
+
+        FitImage:
+            source: "breakingNews.jpg"
+            radius: [20,]
+
+        MDBoxLayout:
+            adaptive_height: True
+            spacing: "1dp"
+
+
+            MDLabel:
+
+                bold: True
+                radius: [20,]
+                font_style: "Caption"
+                font_name: "font/font3.ttf"
+                md_bg_color: 0, 0, 0, .3
+                halign:'center'
+                size_hint_y: None
+                opposite_colors:True
+                height: 100
+                pos_hint: {"center_y": .5}
+                text: "Police officers who were targeted by a pro-Trump mob have been speaking out about the 'medieval battle' that unfolded on the steps of the Capitol and inside the halls of American democracy last week. Police faced off against rioters equipped with clubs, shields, pitchforks, firearms, and metal poles stripped from seating set up for next week's inauguration."
+<Politics@MDSwiperItem>
+    RelativeLayout:
+
+        FitImage:
+            source: "400.jpeg"
+            radius: [20,]
+
+        MDBoxLayout:
+            adaptive_height: True
+            spacing: "1dp"
+
+
+            MDLabel:
+
+                bold: True
+                radius: [20,]
+                font_style: "Caption"
+                font_name: "font/font3.ttf"
+                md_bg_color: 1, 1, 1, .3
+                halign:'center'
+                size_hint_y: None
+                height: 100
+                pos_hint: {"center_y": .5}
+                text: "Joe Biden will be keeping busy during the first days of his presidency after vowing to enact several executive orders right away while on the campaign trail."
+BoxLayout:
+    orientation:'vertical'
+
+    MDToolbar:
+        id: toolbar
+        title: "MDToolbar"
+        font_name:"font/font2.otf"
+        halign: 'center'
+        elevation: 10
+        height: 30
+        specific_text_color: 1,1,1,1
+
+    MDBottomNavigation:
+        panel_color:
+        MDBottomNavigationItem:
+            name: 'screen 1'
+            text: 'Profile'
+            icon: 'account'
+            color:
+            MDLabel:
+                text: 'Python'
+                halign: 'center'
+                font_style: 'H2'
+
+        MDBottomNavigationItem:
+            name: 'screen 2'
+            text: 'News'
+            icon: 'newspaper'
+
+
+            MDSwiper:
+                size_hint_y: None
+                height: root.height - toolbar.height - dp(100)
+                y: root.height - self.height - toolbar.height - dp(90)
+                width_mult:1
+
+
+                BreakingNews:
+
+                Politics:
+
+                BreakingNews:
+
+                Politics:
+
+        MDBottomNavigationItem:
+            name: 'screen 3'
+            text: 'News'
+            icon: 'newspaper'
+
+
+
+
