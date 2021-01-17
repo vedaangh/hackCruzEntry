@@ -19,7 +19,7 @@ ul{
     list-style: none; 
 }
 .gt-logo{ 
-  width: 100px;
+  width: 85px;
   height: 70px;
 }
 .logo-nav {
@@ -37,8 +37,8 @@ ul{
   height: 45px;
 }
 .nav-options {
-  margin-top:20px;
-  margin-left: 40%;
+  margin-top:-15px;
+  margin-left: 55%;
   padding-left: 50px;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -54,6 +54,7 @@ ul{
 }
 
 .signin-up {
+  margin-top: -12%;
   display: flex;
   padding: 0px 100px;
   list-style-type: none;
@@ -61,7 +62,7 @@ ul{
   align-self: right;
 }
 .sign-in {
-  margin-top: -10%;
+  margin-top: -12%;
   padding-right:50%;
   align-self: right;
   text-decoration: none;
@@ -74,6 +75,7 @@ ul{
  
 }
 .signup-btn {
+  margin-top: -12%;
   font-size: 20px;
   padding: 10px 40px;
   height: 2.4rem;

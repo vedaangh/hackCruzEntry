@@ -7,7 +7,7 @@ import NewsPage from './newspage.js';
 
 function Landing() {
   return (
-    <Router>
+    
         <div className="landing">
         <Header/>
             <div className='main-background'>
@@ -19,7 +19,7 @@ function Landing() {
                 </div>
             </div>
         </div>
-    </Router>
+    
   );
 }
 
