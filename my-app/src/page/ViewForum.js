@@ -25,7 +25,7 @@ const Comments = () => {
       const id = localStorage.getItem('f_id');
       const userName = localStorage.getItem('username');
       if (!token) {
-        // history.push('/');
+        history.push('/');
       }
       else {
         setState({ ...state, username: userName });
@@ -48,6 +48,7 @@ const Comments = () => {
       },
       body: JSON.stringify(state)
     };
+    // add a database URL to add a comment to and id of the specific discussion
     const res = await (await fetch(`https://replicaback.herokuapp.com/user/createcomment?id=${id}`, config)).json();
     if (res.status === 200) {
       window.location.reload();
@@ -70,6 +71,7 @@ const Comments = () => {
       },
 
     };
+    // Database URL to delete a certain comment with the discussion id
     const res = await (await fetch(`https://replicaback.herokuapp.com/user/deletecomment?id=${id}`, config)).json();
     if (res.status === 200) {
       setState({ ...state, success: true });
