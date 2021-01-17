@@ -3,22 +3,16 @@ newsapi = NewsApiClient(api_key='c767f495a8724e6dbdb9a66ca65aca08')
 import pandas as pd
 class newsApiFrame():
     def __init__(self):
-        self.top_headlines = newsapi.get_top_headlines(q='trump',
+        self.top_headlines = newsapi.get_top_headlines(q='politics',
                                           category='business',
                                           language='en',
                                           country='us')
-        all_articles = newsapi.get_everything(q='politics',
-                                      sources='bbc-news,the-verge',
-                                      domains='bbc.co.uk,techcrunch.com',
-                                      from_param='2021-01-01',
-                                      to='2021-01-12',
-                                      language='en',
-                                      sort_by='relevancy',
-                                      page=2)
-    def returnMainframe(self):
-        mainframe = pd.DataFrame(columns=["source",	"author",	"title",	"description",	"url",	"urlToImage",	"publishedAt",	"content"])
+        self.mainframe = pd.DataFrame(columns=["source",	"author",	"title",	"description",	"url",	"urlToImage",	"publishedAt",	"content"])
         print(self.top_headlines["articles"][0])
         data = self.top_headlines["articles"]
+
+    def returnMainFrame(self):
+        mainframe = self.mainframe
         i = 0
         sources = []
         authors = []
@@ -27,6 +21,7 @@ class newsApiFrame():
         url = []
         content = []
         imgs= []
+
         for article in self.top_headlines["articles"]:
             sources+= [article["source"]["name"]]
             authors+= [article["author"]]
