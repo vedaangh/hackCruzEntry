@@ -10,16 +10,15 @@ function Landing() {
     <Router>
         <div className="landing">
         <Header/>
-            <div className='main-bk'>
+            <div className='main-background'>
                 <div className='center-title'> 
                     <img src={acta} className="acta" alt="logo" />
                 </div>
                 <div className='center-title'> 
-                    <button className='yellow-button center-text main-title'>Sparking Healthy Conversations <br/> Amoung Different Views</button> 
+                    <button className='yellow-button center-text main-title'>Sparking Healthy Conversations <br/> Among Different Views</button> 
                 </div>
             </div>
         </div>
-        
     </Router>
   );
 }

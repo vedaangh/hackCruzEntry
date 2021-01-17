@@ -6,22 +6,13 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 import Landing from './components/landing.js'
 import NewsPage from './components/newspage.js'
-
+import Routes from './routes/PageRoutes.js'
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <Landing/>
-
-        <Switch>
-        <Route exact path="/"  component={Landing}/>
-        <Route path="/news" component={NewsPage}/>
-       
-         
-        </Switch>
+  <React.StrictMode> 
+<Routes/>
       
-    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -30,3 +21,14 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
+// <Router>
+// <Landing/>
+
+//   <Switch>
+//   <Route exact path="/"  component={Landing}/>
+//   <Route path="/news" component={NewsPage}/>
+ 
+   
+//   </Switch>
+
+// </Router>

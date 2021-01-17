@@ -26,10 +26,8 @@ body {
     height:100%;
     width: 100%;
     background-size:100%;
-    color: aqua;
-   
 }
-.main-bk{
+.main-background{
     background-image: url('./img/landing-background.png'); 
     background-repeat: no-repeat;
     background-position:center;
@@ -43,6 +41,7 @@ body {
     font-size: 60px;
     color: #173E43;
     font-weight: bold;
+    font-family: operetta-12, serif;
 }
 .center-text{
     text-align: center;
